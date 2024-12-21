@@ -353,6 +353,7 @@ background-color: #404bbf;
      column-gap: 24px;
      row-gap: 48px;
      padding-bottom: 120px;
+     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
      }
     .our-port-ul :hover {
       box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -454,5 +455,12 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
     .f-inst :hover,
     .f-inst :focus {
-      background-color: #31d0aa;;
+      background-color: #31d0aa;
     }
+        .f-icon-social {
+          display: flex;
+          margin-top: 8px;
+          justify-content: center;
+          gap: 16px;
+          transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
