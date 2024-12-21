@@ -146,9 +146,9 @@ button { cursor: pointer;}
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
-    /*background-position: 50% 50%;*/
     background-position: center;
     background-size: 1440px;
+    background-size: cover;
 }
 
   .hero-title {
@@ -176,7 +176,9 @@ button { cursor: pointer;}
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background-color: #4d5ae5;}
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
   .hero-btn:hover,
   .hero-btn:focus {
@@ -195,6 +197,7 @@ button { cursor: pointer;}
       width: 264px;
       height: 112px;
       background-color: #f4f4fd;
+      margin-bottom: 8px;
  }
   
   .our-ckill-list {
@@ -278,10 +281,11 @@ button { cursor: pointer;}
         background-color: #FFFFFF;
         width: calc((100% - 72px) / 4);
         border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+          0px 1px 1px rgba(46, 47, 66, 0.16),
+          0px 2px 1px rgba(46, 47, 66, 0.08);
       }
-    .our-team-name {
-      padding: 32px 0;
-    }
+    .our-team-name {padding: 32px 0;}
 
     .our-team-hd-h {
      margin-bottom: 8px;
@@ -301,6 +305,29 @@ button { cursor: pointer;}
      text-align: center;
      color: #434455;}
 
+.icon-social {
+  display: flex;
+  margin-top: 8px;
+  justify-content: center;
+  gap: 24px;}
+  
+.inst {
+  width: 40px;
+  height: 40px;
+  background-color:#4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.inst :hover,
+.inst :focus {
+background-color: #404bbf;
+}
+
+.icon-social-linc {
+  fill: #f4f4fd;
+}
 /*section 4*/
  .our-port-section {
   padding-top: 120px;
