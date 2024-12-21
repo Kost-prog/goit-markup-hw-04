@@ -362,6 +362,7 @@ background-color: #404bbf;
     }
   .our-port-list {
     width: calc((100% - 48px) / 3);
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .foto-div{
@@ -444,6 +445,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   .foot-left {
     margin-right: 120px;
+    
       }
   .fsm {
     font-weight: 500;
@@ -462,5 +464,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
           margin-top: 8px;
           justify-content: center;
           gap: 16px;
-          transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+          
+        }
+        .inst-a {
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
